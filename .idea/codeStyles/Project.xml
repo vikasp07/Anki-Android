@@ -9,19 +9,17 @@
       <value>
         <package name="android" withSubpackages="true" static="false" />
         <emptyLine />
-        <package name=" com" withSubpackages="true" static="false" />
+        <package name="com" withSubpackages="true" static="false" />
         <emptyLine />
-        <package name=" junit" withSubpackages="true" static="false" />
+        <package name="junit" withSubpackages="true" static="false" />
         <emptyLine />
-        <package name=" net" withSubpackages="true" static="false" />
+        <package name="net" withSubpackages="true" static="false" />
         <emptyLine />
-        <package name=" org" withSubpackages="true" static="false" />
+        <package name="org" withSubpackages="true" static="false" />
         <emptyLine />
-        <package name=" java" withSubpackages="true" static="false" />
+        <package name="java" withSubpackages="true" static="false" />
         <emptyLine />
-        <package name=" javax" withSubpackages="true" static="false" />
-        <emptyLine />
-        <package name="" withSubpackages="true" static="true" />
+        <package name="javax" withSubpackages="true" static="false" />
       </value>
     </option>
     <JavaCodeStyleSettings>
@@ -42,11 +40,6 @@
           <package name="java" withSubpackages="true" static="false" />
           <emptyLine />
           <package name="javax" withSubpackages="true" static="false" />
-          <emptyLine />
-          <package name="" withSubpackages="true" static="false" />
-          <emptyLine />
-          <package name="" withSubpackages="true" static="true" />
-          <emptyLine />
         </value>
       </option>
     </JavaCodeStyleSettings>
@@ -115,16 +108,6 @@
             <rule>
               <match>
                 <AND>
-                  <NAME>name</NAME>
-                  <XML_NAMESPACE>^$</XML_NAMESPACE>
-                </AND>
-              </match>
-            </rule>
-          </section>
-          <section>
-            <rule>
-              <match>
-                <AND>
                   <NAME>style</NAME>
                   <XML_NAMESPACE>^$</XML_NAMESPACE>
                 </AND>
@@ -167,28 +150,6 @@
               <match>
                 <AND>
                   <NAME>.*:layout_.*</NAME>
-                  <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
-                </AND>
-              </match>
-              <order>BY_NAME</order>
-            </rule>
-          </section>
-          <section>
-            <rule>
-              <match>
-                <AND>
-                  <NAME>.*:width</NAME>
-                  <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
-                </AND>
-              </match>
-              <order>BY_NAME</order>
-            </rule>
-          </section>
-          <section>
-            <rule>
-              <match>
-                <AND>
-                  <NAME>.*:height</NAME>
                   <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
                 </AND>
               </match>
